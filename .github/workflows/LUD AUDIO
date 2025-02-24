@@ -1,0 +1,97 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUD AUDIO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffcc80; /* Light orange background */
+            color: #4a2f00; /* Dark brown text for contrast */
+            text-align: center; /* Centers all text */
+        }
+        header {
+            background: #ff6f00; /* Dark orange */
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        nav {
+            background: #e65100; /* Deep orange */
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+        .main-content, .sidebar {
+            background: #ffb74d; /* Medium orange */
+            border-radius: 10px;
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            background: #ff9800; /* Orange */
+        }
+        footer {
+            background: #e65100;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        LUD AUDIO
+    </header>
+    <nav>
+        <a href="#">Services Musical Instrument</a>
+        <a href="#">Contact: 0244744299</a>
+    </nav>
+    
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to LUD AUDIO</h2>
+            <p>We specialize in musical instruments. Get quality and affordable instruments by contacting 
+                0244744299 or 0578182992. Locate us at Zongo Lane, Selwyn Market Street near Benjilo.</p>
+        </div>
+        
+        <div class="sidebar">
+            <h3>Our Instruments</h3>
+            <p>We provide high-quality musical instruments including guitars, keyboards, drums, and more.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 LUD AUDIO. All rights reserved.</p>
+        <p>We Do Not Follow Trends, We Set Standards</p>
+    </footer>
+</body>
+</html>
